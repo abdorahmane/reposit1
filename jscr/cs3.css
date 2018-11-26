@@ -1,0 +1,63 @@
+.mpsl-text-white.mpsl-text-white {
+	font-family: "Montserrat",sans-serif !important;
+	text-shadow: none !important;
+	font-size: 90px ;
+	line-height: 50px ;
+
+}
+
+
+.slide-text {
+	text-transform: uppercase !important;
+	text-align: center !important;
+	font-size: 28px !important;
+	line-height: 42px !important;
+	text-shadow: none !important;
+	font-family: "Montserrat",sans-serif !important;
+	padding-right: 50px !important;
+	padding-left: 50px !important;
+}
+
+
+.motoslider_wrapper .ms_next, .motoslider_wrapper .ms_prev {
+	background: none ;
+	width: 53px;
+	height: 53px;
+	border-radius: 500px;
+	background-color: #576979;
+	opacity: 1;
+	  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  text-align: center;
+  top: 78%;
+}
+
+.motoslider_wrapper .ms_next:hover, .motoslider_wrapper .ms_prev:hover {
+	background-color: #d4262e;
+	 -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.motoslider_wrapper .ms_prev {
+	left: 46%;
+
+}
+
+.motoslider_wrapper .ms_next {
+	right: 48%;
+
+}
+
+.motoslider_wrapper .ms_prev:before {
+	content: '\f053';
+	font: 26px/52px 'FontAwesome';
+	color: #fff;
+
+}
+
+
+.motoslider_wrapper .ms_next:before {
+	content: '\f054';
+
+	font: 26px/52px 'FontAwesome';
+	color: #fff;}
